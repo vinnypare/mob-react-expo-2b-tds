@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "orgs",
-    "slug": "orgs-cesta",
+    "slug": "orgs",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./caminho/do/icone.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -12,12 +12,14 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.suaempresa.nomedoaplicativosemtraco",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "package": "com.suaempresa.nomedoaplicativosemtraco",
+        "versionCode": 1
+     
       }
     },
     "web": {
